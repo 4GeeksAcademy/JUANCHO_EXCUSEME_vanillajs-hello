@@ -16,8 +16,8 @@ window.onload = () => {
 let generadorexcusas = () => {
   let pronoun = ["Un", "El"];
   let subject = ["cartero", "gato", "perro", "conductor", "portero"];
-  let action = ["tomo mi", "lanzo mi", "esconido a mi", "me robo", "mordio mi"];
-  let possetion = ["la tarea", "el zapato", "mi auto", "mi pie"];
+  let action = ["tomo", "lanzo", "esconido", "me robo", "mordio"];
+  let possetion = ["la tarea", "el zapato", "las llaves", "la bicicleta"];
   let where = ["en la calle", "en mi casa", "en el camino a casa"];
 
   let proIndx = Math.floor(Math.random() * pronoun.length);
