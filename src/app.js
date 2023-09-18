@@ -6,7 +6,7 @@ import "./assets/img/rigo-baby.jpg";
 import "./assets/img/4geeks.ico";
 
 window.onload = () => {
-  document.querySelector("#btn").addEventListener("click", () => {
+  document.querySelector("#btn_excusas").addEventListener("click", () => {
     document.querySelector("#excuse").innerHTML = generadorexcusas();
   });
 
